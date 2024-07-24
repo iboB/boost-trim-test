@@ -32,5 +32,5 @@ macro(add_exe tgt std)
     endif()
 endmacro()
 
-add_exe(websockect_server_async_ssl 17)
-#add_exe(websocket_server_coro_ssl 20)
+add_exe(websocket_server_async_ssl 17)
+add_exe(websocket_server_awaitable 20)
